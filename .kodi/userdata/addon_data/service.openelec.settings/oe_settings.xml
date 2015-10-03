@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<openelec>
+	<addon_config/>
+	<settings>
+		<system>
+			<wizard_completed>True</wizard_completed>
+		</system>
+		<services>
+			<wizard_completed>True</wizard_completed>
+		</services>
+		<connman>
+			<wizard_completed>True</wizard_completed>
+		</connman>
+		<openelec>
+			<wizard_completed>True</wizard_completed>
+		</openelec>
+	</settings>
+</openelec>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Show/Hide Content">
+		<setting id="addonportal" type="bool" label="Add-On Portal Section" default="true" visible="false"/>
+		<setting id="communitybuilds" type="bool" label="Community Builds Section" default="false" visible="false"/>
+		<setting id="versionoverride" type="bool" label="- Show ALL Builds (some of these may not be compatible)" default="false" enable="!eq(-1,false)" visible="true"/>
+        <setting id="private" type="bool" label="- Show private content" default="false" enable="!eq(-2,false)" visible="true"/>
+		<setting id="hardwareportal" type="bool" label="Hardware Reviews Section" default="false" visible="false"/>
+		<setting id="latestnews" type="bool" label="Latest News Section" default="true" visible="true"/>
+		<setting id="maintenance" type="bool" label="Maintenance Section" default="true" visible="true"/>
+		<setting id="tutorialportal" type="bool" label="Tutorials Section" default="true" visible="true"/>
+		<setting id="adult" type="bool" label="Enable XXX Content[CR]" default="false" visible="true"/>
+		<setting id="trcheck" default="false" visible="false"/>
+	</category>
+
+    <category label="Community Builds">
+		<setting type="lsep" label="Backup/Download Details"/>
+        <setting id="zip" type="folder"    label="Choose Backup Storage Location"      default="/storage/backup/"/>
+ 		<setting id="dummy" label="[COLOR=yellow]Click here to check download path[/COLOR]" type="action" action="XBMC.RunScript(special://home/addons/plugin.program.tbs/checkPath.py)" option="close"/>
+		<setting type="lsep" label="[CR]"/>
+		<setting id="localcopy" type="bool" label="Keep local copies of downloaded builds" default="false"/>
+		<setting id="mastercopy" type="bool" label="Create full duplicate backup AS WELL as a universal build" default="false"/>
+		<setting id="favourites" type="bool" label="Keep my favourites when installing a build" default="false"/>
+		<setting id="sources" type="bool" label="Keep my sources when installing a build" default="false"/>
+	</category>
+
+    <category label="Keyword Codes">
+		<setting id="codename" type="text" label="Enter visible name for keywords" default="Venztech" visible="true"/>
+		<setting id="keywordpath" type="text" label="Keyword Installer URL" default="http://urlshortbot.com/venztech" visible="true"/>
+		<setting type="lsep" label="[CR]If you wish to use your own url shortener enter the name"/>
+		<setting type="lsep" label="you'd like it to appear as in the menu and edit the URL."/>
+    </category>
+
+	<category label="Announcements">
+		<setting id="cbnotifycheck" type="bool" label="Show important announcement from Community Build author" default="true"/>
+        <setting id="internetcheck" type="bool" label="Warn if not connected to internet" default="true" />
+	</category>
+
+    <category label="Maintenance">
+    	<setting id="email" type="text" label="E-Mail Address (used for log uploader)"/>
+		<setting type="lsep" label="[CR][CR]"/>
+ 		<setting id="dummy" label="[COLOR=yellow]Click here to upload a log[/COLOR]" type="action" action="XBMC.RunScript(special://home/addons/plugin.program.tbs/uploadLog.py)" option="close"/>
+		<setting type="lsep" label="Once your log is uploaded you will receive an email with the link."/>
+		<setting type="lsep" label="[CR][CR]"/>
+ 		<setting id="dummy" label="[COLOR=yellow]Click here to reset your add-on[/COLOR]" type="action" action="XBMC.RunScript(special://home/addons/plugin.program.tbs/resetAddon.py)" option="close"/>
+		<setting type="lsep" label="Use this option if you're encountering problems with the add-on not"/>
+		<setting type="lsep" label="loading correctly (script errors)."/>
+    </category>
+
+</settings>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.audio.radio_de/stations/my/</defaultID>
+		<label>[COLOR red][B]My Stations[/B][/COLOR]</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.audio.radio_de%2ficon.png/</thumb>
+		<action>ActivateWindow(10501,"plugin://plugin.audio.radio_de/stations/my/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.radio_de/stations/search/</defaultID>
+		<label>[COLOR yellow][B]Search Station[/B][/COLOR]</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.audio.radio_de%2ficon.png/</thumb>
+		<action>ActivateWindow(10501,"plugin://plugin.audio.radio_de/stations/search/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.radio_de/stations/top/</defaultID>
+		<label>[COLOR blue][B]Top 100 Stations[/B][/COLOR]</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.audio.radio_de%2ficon.png/</thumb>
+		<action>ActivateWindow(10501,"plugin://plugin.audio.radio_de/stations/top/",return)</action>
+	</shortcut>
+</shortcuts>

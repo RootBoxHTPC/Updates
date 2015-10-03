@@ -1,0 +1,41 @@
+v.2.0.6:
+- Totally re-coded the service timing so it uses proper alarm calls. No more lockups.
+- Fixed up some dialog messages, now if it doesn't force close it tells user to pull power.
+- Fixed wipe kodi option in maintenance
+- Fixed RunScript options in settings which had broken.
+
+v.2.0.5:
+- Fixed Option 1 (Fresh Install).
+- Fixed Wipe option (was failing to keep Total Installer after wipe on Android).
+- Added options to keep sources and favourites when installing a community build.
+- Added service, this allows for internet connection check and CB notifications.
+- Edited main menu so Community Builds always shows as a category but still needs unlocking.
+
+v.2.0.4:
+- Added missing countries.
+- Fix guisettings step, old builds with TI installed were overwriting the newer version.
+- Fix uploadlog for TI (typo in plugin ID for uploadlog module)
+- Fix issue with special characters in user/pass.
+- Wipe Kodi without the need for restart (load master profile).
+- Add Isengard category to both the add-on and web form.
+- Add option to show all builds (even those that may be marked as incompatible with system)
+- Improved search functions so not quite as demanding on servers.
+- Fixed the download count on add-on portal.
+- Added check for download path and login that can be run directly from settings without the need for saving settings. Thank you DixieDean for that tip!
+- Added reset option in settings, this will remove the addon_data/plugin.program.totalinstaller folder.
+
+v.2.0.3:
+- Small fix on startup video, added a close on the dialog which was covering up the video
+
+v.2.0.2:
+- Fixed wipe build option.
+- Added internet check on startup.
+- Added broken status on addon portal when browsing lists.
+
+v.2.0.1:
+- Minor update, some systems didn't like base64
+
+Version 2.0:
+- A complete re-write, all my own code apart from the handful of modules not obfuscated.
+- The default.py is now obfuscated due to some morons stealing work without crediting the original author and also removing licenses.
+Sorry about that, it goes against everything I believe in but until these idiots are dealt with it will stay this way.

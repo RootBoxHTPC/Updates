@@ -1,0 +1,2051 @@
+<settings>
+    <audiocds>
+        <autoaction default="true">0</autoaction>
+        <ejectonrip default="true">true</ejectonrip>
+        <encoder default="true">audioencoder.xbmc.builtin.wav</encoder>
+        <recordingpath default="true"></recordingpath>
+        <trackpathformat default="true">%A/%A - %B/[%N. ][%A - ]%T</trackpathformat>
+        <usecddb default="true">true</usecddb>
+    </audiocds>
+    <audiooutput>
+        <ac3passthrough default="true">true</ac3passthrough>
+        <ac3transcode default="true">false</ac3transcode>
+        <audiodevice default="true">ALSA:default</audiodevice>
+        <channels>2</channels>
+        <config default="true">2</config>
+        <dtshdpassthrough default="true">false</dtshdpassthrough>
+        <dtspassthrough default="true">false</dtspassthrough>
+        <eac3passthrough default="true">false</eac3passthrough>
+        <guisoundmode default="true">1</guisoundmode>
+        <maintainoriginalvolume default="true">true</maintainoriginalvolume>
+        <passthrough default="true">false</passthrough>
+        <passthroughdevice default="true">default</passthroughdevice>
+        <processquality>50</processquality>
+        <samplerate default="true">48000</samplerate>
+        <stereoupmix default="true">false</stereoupmix>
+        <streamsilence default="true">1</streamsilence>
+        <truehdpassthrough default="true">false</truehdpassthrough>
+    </audiooutput>
+    <cache>
+        <harddisk default="true">256</harddisk>
+    </cache>
+    <cacheaudio>
+        <dvdrom default="true">256</dvdrom>
+        <internet default="true">256</internet>
+        <lan default="true">256</lan>
+    </cacheaudio>
+    <cachedvd>
+        <dvdrom default="true">2048</dvdrom>
+        <lan default="true">2048</lan>
+    </cachedvd>
+    <cacheunknown>
+        <internet default="true">4096</internet>
+    </cacheunknown>
+    <cachevideo>
+        <dvdrom default="true">2048</dvdrom>
+        <internet default="true">4096</internet>
+        <lan default="true">2048</lan>
+    </cachevideo>
+    <debug>
+        <extralogging default="true">false</extralogging>
+        <screenshotpath>/storage/screenshots/</screenshotpath>
+        <setextraloglevel default="true"></setextraloglevel>
+        <showloginfo default="true">false</showloginfo>
+    </debug>
+    <disc>
+        <playback default="true">0</playback>
+    </disc>
+    <dvds>
+        <automenu default="true">false</automenu>
+        <autorun default="true">false</autorun>
+        <playerregion default="true">0</playerregion>
+    </dvds>
+    <epg>
+        <daystodisplay default="true">3</daystodisplay>
+        <epgupdate default="true">120</epgupdate>
+        <hidenoinfoavailable default="true">true</hidenoinfoavailable>
+        <ignoredbforclient default="true">false</ignoredbforclient>
+        <preventupdateswhileplayingtv default="true">false</preventupdateswhileplayingtv>
+        <selectaction default="true">2</selectaction>
+    </epg>
+    <filelists>
+        <allowfiledeletion default="true">false</allowfiledeletion>
+        <ignorethewhensorting default="true">true</ignorethewhensorting>
+        <showaddsourcebuttons default="true">true</showaddsourcebuttons>
+        <showextensions default="true">true</showextensions>
+        <showhidden>true</showhidden>
+        <showparentdiritems default="true">true</showparentdiritems>
+    </filelists>
+    <general>
+        <addonbrokenfilter default="true">true</addonbrokenfilter>
+        <addonforeignfilter default="true">false</addonforeignfilter>
+        <addonnotifications default="true">true</addonnotifications>
+        <addonupdates default="true">0</addonupdates>
+        <settinglevel>3</settinglevel>
+        <systemtotaluptime>8258</systemtotaluptime>
+    </general>
+    <input>
+        <enablejoystick default="true">true</enablejoystick>
+        <enablemouse default="true">true</enablemouse>
+    </input>
+    <karaoke>
+        <autopopupselector default="true">false</autopopupselector>
+        <charset default="true">DEFAULT</charset>
+        <enabled default="true">false</enabled>
+        <font default="true">arial.ttf</font>
+        <fontcolors default="true">0</fontcolors>
+        <fontheight default="true">36</fontheight>
+    </karaoke>
+    <locale>
+        <audiolanguage default="true">original</audiolanguage>
+        <charset default="true">DEFAULT</charset>
+        <country>UK (24h)</country>
+        <keyboardlayouts default="true">English QWERTY</keyboardlayouts>
+        <language default="true">English</language>
+        <subtitlelanguage default="true">original</subtitlelanguage>
+        <timezone>Europe/London</timezone>
+        <timezonecountry>Britain (UK)</timezonecountry>
+    </locale>
+    <lookandfeel>
+        <enablerssfeeds default="true">true</enablerssfeeds>
+        <font default="true">Default</font>
+        <rssedit default="true"></rssedit>
+        <skin>skin.aeon.nox.5</skin>
+        <skincolors default="true">SKINDEFAULT</skincolors>
+        <skintheme default="true">SKINDEFAULT</skintheme>
+        <skinzoom default="true">0</skinzoom>
+        <soundskin default="true">SKINDEFAULT</soundskin>
+        <startupwindow default="true">10000</startupwindow>
+    </lookandfeel>
+    <masterlock>
+        <maxretries default="true">3</maxretries>
+        <startuplock default="true">false</startuplock>
+    </masterlock>
+    <musicfiles>
+        <findremotethumbs default="true">true</findremotethumbs>
+        <librarytrackformat default="true"></librarytrackformat>
+        <librarytrackformatright default="true"></librarytrackformatright>
+        <nowplayingtrackformat default="true"></nowplayingtrackformat>
+        <nowplayingtrackformatright default="true"></nowplayingtrackformatright>
+        <trackformat default="true">[%N. ]%A - %T</trackformat>
+        <trackformatright default="true">%D</trackformatright>
+        <usetags default="true">true</usetags>
+    </musicfiles>
+    <musiclibrary>
+        <albumsscraper default="true">metadata.album.universal</albumsscraper>
+        <artistsscraper default="true">metadata.artists.universal</artistsscraper>
+        <backgroundupdate default="true">false</backgroundupdate>
+        <downloadinfo default="true">false</downloadinfo>
+        <enabled default="true">true</enabled>
+        <overridetags default="true">false</overridetags>
+        <showcompilationartists default="true">true</showcompilationartists>
+        <updateonstartup default="true">false</updateonstartup>
+    </musiclibrary>
+    <musicplayer>
+        <autoplaynextitem default="true">true</autoplaynextitem>
+        <crossfade default="true">0</crossfade>
+        <crossfadealbumtracks default="true">true</crossfadealbumtracks>
+        <queuebydefault default="true">false</queuebydefault>
+        <replaygainavoidclipping default="true">false</replaygainavoidclipping>
+        <replaygainnogainpreamp default="true">89</replaygainnogainpreamp>
+        <replaygainpreamp default="true">89</replaygainpreamp>
+        <replaygaintype default="true">1</replaygaintype>
+        <visualisation></visualisation>
+    </musicplayer>
+    <mymusic>
+        <defaultlibview default="true"></defaultlibview>
+        <songthumbinvis default="true">false</songthumbinvis>
+        <startwindow default="true">10501</startwindow>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <needsupdate>0</needsupdate>
+    </mymusic>
+    <myvideos>
+        <extractflags default="true">true</extractflags>
+        <extractthumb default="true">true</extractthumb>
+        <flatten default="true">false</flatten>
+        <replacelabels default="true">true</replacelabels>
+        <selectaction default="true">1</selectaction>
+        <stackvideos default="true">false</stackvideos>
+        <startwindow>10025</startwindow>
+        <watchmodemovies>0</watchmodemovies>
+        <watchmodetvshows>0</watchmodetvshows>
+        <watchmodemusicvideos>0</watchmodemusicvideos>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <needsupdate>0</needsupdate>
+    </myvideos>
+    <network>
+        <bandwidth default="true">0</bandwidth>
+        <httpproxypassword default="true"></httpproxypassword>
+        <httpproxyport default="true">8080</httpproxyport>
+        <httpproxyserver default="true"></httpproxyserver>
+        <httpproxytype default="true">0</httpproxytype>
+        <httpproxyusername default="true"></httpproxyusername>
+        <usehttpproxy default="true">false</usehttpproxy>
+    </network>
+    <pictures>
+        <displayresolution>16</displayresolution>
+        <generatethumbs default="true">true</generatethumbs>
+        <showvideos default="true">true</showvideos>
+        <useexifrotation default="true">true</useexifrotation>
+        <usetags default="true">true</usetags>
+    </pictures>
+    <powermanagement>
+        <displaysoff default="true">0</displaysoff>
+        <shutdownstate default="true">1</shutdownstate>
+        <shutdowntime default="true">0</shutdowntime>
+        <wakeonaccess default="true">true</wakeonaccess>
+    </powermanagement>
+    <pvrmanager>
+        <backendchannelorder default="true">true</backendchannelorder>
+        <enabled default="true">false</enabled>
+        <hideconnectionlostwarning default="true">false</hideconnectionlostwarning>
+        <syncchannelgroups default="true">true</syncchannelgroups>
+        <usebackendchannelnumbers default="true">false</usebackendchannelnumbers>
+    </pvrmanager>
+    <pvrmenu>
+        <closechannelosdonswitch default="true">true</closechannelosdonswitch>
+        <displaychannelinfo default="true">5</displaychannelinfo>
+        <iconpath default="true"></iconpath>
+    </pvrmenu>
+    <pvrparental>
+        <duration default="true">300</duration>
+        <enabled default="true">false</enabled>
+        <pin default="true"></pin>
+    </pvrparental>
+    <pvrplayback>
+        <channelentrytimeout default="true">0</channelentrytimeout>
+        <confirmchannelswitch default="true">false</confirmchannelswitch>
+        <playminimized default="true">true</playminimized>
+        <scantime default="true">10</scantime>
+        <signalquality default="true">false</signalquality>
+        <startlast default="true">0</startlast>
+    </pvrplayback>
+    <pvrpowermanagement>
+        <backendidletime default="true">15</backendidletime>
+        <dailywakeup default="true">false</dailywakeup>
+        <dailywakeuptime default="true">00:00:00</dailywakeuptime>
+        <enabled default="true">false</enabled>
+        <prewakeup default="true">15</prewakeup>
+        <setwakeupcmd default="true">/usr/bin/setwakeup.sh</setwakeupcmd>
+    </pvrpowermanagement>
+    <pvrrecord>
+        <defaultlifetime default="true">99</defaultlifetime>
+        <defaultpriority default="true">50</defaultpriority>
+        <instantrecordtime default="true">120</instantrecordtime>
+        <marginend default="true">0</marginend>
+        <marginstart default="true">0</marginstart>
+        <timernotifications default="true">true</timernotifications>
+    </pvrrecord>
+    <scrapers>
+        <moviesdefault default="true">metadata.themoviedb.org</moviesdefault>
+        <musicvideosdefault default="true">metadata.musicvideos.theaudiodb.com</musicvideosdefault>
+        <tvshowsdefault default="true">metadata.tvdb.com</tvshowsdefault>
+    </scrapers>
+    <screensaver>
+        <mode></mode>
+        <time default="true">3</time>
+        <usedimonpause default="true">true</usedimonpause>
+        <usemusicvisinstead default="true">true</usemusicvisinstead>
+    </screensaver>
+    <services>
+        <airplay default="true">true</airplay>
+        <airplayios8compat default="true">true</airplayios8compat>
+        <airplaypassword default="true"></airplaypassword>
+        <airplayvolumecontrol default="true">true</airplayvolumecontrol>
+        <devicename default="true">Kodi</devicename>
+        <esallinterfaces default="true">false</esallinterfaces>
+        <escontinuousdelay default="true">25</escontinuousdelay>
+        <esenabled default="true">true</esenabled>
+        <esinitialdelay default="true">750</esinitialdelay>
+        <esmaxclients default="true">20</esmaxclients>
+        <esport default="true">9777</esport>
+        <esportrange default="true">10</esportrange>
+        <upnpannounce default="true">true</upnpannounce>
+        <upnpcontroller default="true">false</upnpcontroller>
+        <upnprenderer default="true">false</upnprenderer>
+        <upnpserver default="true">false</upnpserver>
+        <useairplaypassword default="true">false</useairplaypassword>
+        <webserver default="true">true</webserver>
+        <webserverpassword default="true"></webserverpassword>
+        <webserverport default="true">80</webserverport>
+        <webserverusername default="true">kodi</webserverusername>
+        <webskin default="true">webinterface.default</webskin>
+        <zeroconf default="true">true</zeroconf>
+    </services>
+    <slideshow>
+        <displayeffects default="true">true</displayeffects>
+        <shuffle default="true">false</shuffle>
+        <staytime default="true">5</staytime>
+    </slideshow>
+    <smb>
+        <winsserver default="true">0.0.0.0</winsserver>
+        <workgroup default="true">WORKGROUP</workgroup>
+    </smb>
+    <subtitles>
+        <align default="true">0</align>
+        <charset default="true">DEFAULT</charset>
+        <color default="true">1</color>
+        <custompath default="true"></custompath>
+        <downloadfirst default="true">false</downloadfirst>
+        <font default="true">arial.ttf</font>
+        <height default="true">28</height>
+        <languages default="true">English</languages>
+        <movie default="true">-</movie>
+        <overrideassfonts default="true">false</overrideassfonts>
+        <pauseonsearch default="true">true</pauseonsearch>
+        <stereoscopicdepth default="true">0</stereoscopicdepth>
+        <storagemode default="true">0</storagemode>
+        <style default="true">1</style>
+        <tv default="true">-</tv>
+    </subtitles>
+    <system>
+        <playlistspath>special://profile/playlists/</playlistspath>
+    </system>
+    <videolibrary>
+        <actorthumbs default="true">true</actorthumbs>
+        <backgroundupdate default="true">false</backgroundupdate>
+        <enabled default="true">true</enabled>
+        <flattentvshows default="true">1</flattentvshows>
+        <groupmoviesets default="true">false</groupmoviesets>
+        <showunwatchedplots default="true">true</showunwatchedplots>
+        <updateonstartup default="true">false</updateonstartup>
+    </videolibrary>
+    <videoplayer>
+        <adjustrefreshrate default="true">0</adjustrefreshrate>
+        <autoplaynextitem default="true">false</autoplaynextitem>
+        <decodingmethod default="true">1</decodingmethod>
+        <errorinaspect default="true">0</errorinaspect>
+        <hqscalers default="true">0</hqscalers>
+        <maxspeedadjust default="true">5</maxspeedadjust>
+        <pauseafterrefreshchange default="true">0</pauseafterrefreshchange>
+        <prefervaapirender default="true">true</prefervaapirender>
+        <quitstereomodeonstop default="true">true</quitstereomodeonstop>
+        <rendermethod default="true">0</rendermethod>
+        <stereoscopicplaybackmode default="true">0</stereoscopicplaybackmode>
+        <stretch43 default="true">0</stretch43>
+        <synctype default="true">2</synctype>
+        <teletextenabled default="true">true</teletextenabled>
+        <teletextscale default="true">true</teletextscale>
+        <useamcodec default="true">true</useamcodec>
+        <usedisplayasclock default="true">false</usedisplayasclock>
+        <usedxva2 default="true">true</usedxva2>
+        <useomx default="true">true</useomx>
+        <useomxplayer default="true">true</useomxplayer>
+        <usepbo default="true">true</usepbo>
+        <usevaapi default="true">true</usevaapi>
+        <usevaapimpeg2 default="true">true</usevaapimpeg2>
+        <usevaapimpeg4 default="true">true</usevaapimpeg4>
+        <usevaapivc1 default="true">false</usevaapivc1>
+        <usevda default="true">true</usevda>
+        <usevdpau default="true">true</usevdpau>
+        <usevdpaumixer default="true">true</usevdpaumixer>
+        <usevdpaumpeg2 default="true">true</usevdpaumpeg2>
+        <usevdpaumpeg4 default="true">false</usevdpaumpeg4>
+        <usevdpauvc1 default="true">true</usevdpauvc1>
+        <usevideotoolbox default="true">true</usevideotoolbox>
+        <vdpauUpscalingLevel default="true">false</vdpauUpscalingLevel>
+        <vdpau_allow_xrandr default="true">false</vdpau_allow_xrandr>
+    </videoplayer>
+    <videoscreen>
+        <blankdisplays default="true">false</blankdisplays>
+        <fakefullscreen default="true">true</fakefullscreen>
+        <limitedrange default="true">false</limitedrange>
+        <monitor default="true">Default</monitor>
+        <preferedstereoscopicmode default="true">100</preferedstereoscopicmode>
+        <resolution default="true">16</resolution>
+        <screen default="true">0</screen>
+        <screenmode default="true">DESKTOP</screenmode>
+        <stereoscopicmode default="true">0</stereoscopicmode>
+        <vsync default="true">3</vsync>
+    </videoscreen>
+    <weather>
+        <addon>weather.yahoo</addon>
+        <currentlocation default="true">1</currentlocation>
+    </weather>
+    <window>
+        <height default="true">480</height>
+        <width default="true">720</width>
+    </window>
+    <skinsettings>
+        <setting type="bool" name="skin.confluence.Use_Startup_Playlist">true</setting>
+        <setting type="bool" name="skin.confluence.UseCustomBackground">false</setting>
+        <setting type="bool" name="skin.confluence.HideBackGroundFanart">false</setting>
+        <setting type="bool" name="skin.confluence.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.confluence.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.confluence.HomepageHideRecentlyAddedVideo">false</setting>
+        <setting type="bool" name="skin.confluence.HomepageHideRecentlyAddedAlbums">false</setting>
+        <setting type="bool" name="skin.confluence.homepageWeatherinfo">false</setting>
+        <setting type="bool" name="skin.confluence.homepageMusicinfo">false</setting>
+        <setting type="bool" name="skin.confluence.homepageVideoinfo">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoMovieButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoTVShowButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoWeatherButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoPicturesButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoVideosButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoMusicButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoProgramsButton">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.osd.usetheme">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.osd.showinfoonpause">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.ShowClearArtOSD">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.flagicons">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.hide.busydialog">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.vertical">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.logo">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.global.showvideo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.global.showvisualisation">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.ArtistSlideShow.Disabled">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.OSDVisualisation.ShowFanart">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.ArtistSlideshow.Animate">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.Fanart.Animate">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.dontshowfanart">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.showweatherfanart">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.global.hidefanart">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.weather">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.clock">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.header">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.nowplaying">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.topweather">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.classicwidgets">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.submenu2">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.showicons">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.showheader">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.NextAired.Update">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.50list.low">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.51bigwide.showinfo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.52biglist.singlepane">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.55wall.hideinfo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.55wall.showposter">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.56media.showinfo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.56media.low">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.57list.low">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.53poster.nowrap">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.show.reflections">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.50list.showplot">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.global.hidecirles">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.54banner.showinfo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.flags">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.numericrating">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.ActivateTvTunes">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.musicvis.fanartfallback">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.home.dontautoshowwidget">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.global.kioskmode">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.UpdateArt.Enabled">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.SkinShortcuts-FullMenu">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.startup.init">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.55wall.showinfo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.indicators.resume">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.indicators.watched">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.indicators.new">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.indicators.unwatched">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.furniture.overlayinfo">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.osd.alwaysshowmusicosd">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.weather.hidefanart">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.weather.useflaticons">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-widget-RecentMovies">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-widget-RandomMovies">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-widget-InCinemas">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-widget-TopRatedTvShows">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-widget-RecommendedAlbums">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-widget-TrendingShows">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.Fanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.lowermainmenu">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Detach.RSS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.Musicinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.Videoinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.mainmenuicons">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.biggergap">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Enable.AutoScroll">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.VideoInfoPlotToggle">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.NextAired">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.KioskMode.Enabled">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.HorizontalListNav">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Enable.SlimList">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Enable.HideRatings">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.UnwatchedIcon">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.nohighlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Disable.Resumable">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/Kids/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/TVGuide/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/About/default.png">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.infobar_hidesignalinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.infobar_hidetuners">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.infobar_hidetencrypt">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Disable.Fanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Disable.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Disable.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.lowermainmenu">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Detach.RSS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Disable.Musicinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Disable.Videoinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.mainmenuicons">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.biggergap">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Enable.AutoScroll">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.VideoInfoPlotToggle">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Use_Startup_Playlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Enable.TvTunes">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Disable.NextAired">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.KioskMode.Enabled">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.HorizontalListNav">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Enable.SlimList">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.maniac.Enable.HideRatings">false</setting>
+        <setting type="bool" name="skin.nebula.FullscreenMusic">false</setting>
+        <setting type="bool" name="skin.nebula.Theme.Color.Auto">true</setting>
+        <setting type="bool" name="skin.nebula.Theme.Color.Black">false</setting>
+        <setting type="bool" name="skin.nebula.Theme.Color.White">false</setting>
+        <setting type="bool" name="skin.nebula.DisableOSDInfoOnPause">false</setting>
+        <setting type="bool" name="skin.nebula.OSDShowInfoPaused">false</setting>
+        <setting type="bool" name="skin.nebula.EnableClearLogo">false</setting>
+        <setting type="bool" name="skin.nebula.EnableClearArt">false</setting>
+        <setting type="bool" name="skin.nebula.plexbmc">false</setting>
+        <setting type="bool" name="skin.nebula.EnableCdArt">false</setting>
+        <setting type="bool" name="skin.nebula.DisableFanart">false</setting>
+        <setting type="bool" name="skin.nebula.EnableExtraFanart">false</setting>
+        <setting type="bool" name="skin.nebula.KenBurnsEffect">false</setting>
+        <setting type="bool" name="skin.nebula.Home_DefaultBG">false</setting>
+        <setting type="bool" name="skin.nebula.Videos.Background.EnableRandomFanart">false</setting>
+        <setting type="bool" name="skin.nebula.Movies.Background.EnableRandomFanart">false</setting>
+        <setting type="bool" name="skin.nebula.TVShows.Background.EnableRandomFanart">false</setting>
+        <setting type="bool" name="skin.nebula.Music.Background.EnableRandomFanart">false</setting>
+        <setting type="bool" name="skin.nebula.Show_Player">false</setting>
+        <setting type="bool" name="skin.nebula.MusicPlayingFanart">false</setting>
+        <setting type="bool" name="skin.nebula.OverlayTransparency90">false</setting>
+        <setting type="bool" name="skin.nebula.OverlayTransparency80">false</setting>
+        <setting type="bool" name="skin.nebula.OverlayTransparency70">false</setting>
+        <setting type="bool" name="skin.nebula.OverlayTransparency60">false</setting>
+        <setting type="bool" name="skin.nebula.OverlayTransparency50">false</setting>
+        <setting type="bool" name="skin.nebula.DisableOverlayMusicPlaying">false</setting>
+        <setting type="bool" name="skin.nebula.AutoScroll">false</setting>
+        <setting type="bool" name="skin.nebula.ManualScroll">false</setting>
+        <setting type="bool" name="skin.nebula.Hide_Watched_Marks">false</setting>
+        <setting type="bool" name="skin.nebula.Hide_Unwatched_Marks">true</setting>
+        <setting type="bool" name="skin.nebula.DefaultView50">false</setting>
+        <setting type="bool" name="skin.nebula.DefaultView51">true</setting>
+        <setting type="bool" name="skin.nebula.DefaultView52">false</setting>
+        <setting type="bool" name="skin.nebula.ScrollOffsetLabelEnabled">false</setting>
+        <setting type="bool" name="skin.nebula.RssTicker">false</setting>
+        <setting type="bool" name="skin.nebula.DisableIconViewInfos">false</setting>
+        <setting type="bool" name="skin.nebula.EnableKioskMode">false</setting>
+        <setting type="bool" name="skin.nebula.PVRChannelListBig">false</setting>
+        <setting type="bool" name="skin.nebula.Use_Artist_Slideshow">false</setting>
+        <setting type="bool" name="skin.nebula.Hide.RecentlyAdded">false</setting>
+        <setting type="bool" name="skin.nebula.Use.FastStart">true</setting>
+        <setting type="bool" name="skin.nebula.startup-playlist">false</setting>
+        <setting type="bool" name="skin.nebula.Movies.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.TVShows.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Music.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Clips.Show">false</setting>
+        <setting type="bool" name="skin.nebula.Concerts.Show">false</setting>
+        <setting type="bool" name="skin.nebula.Pictures.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Favourites.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Addons.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.DVD.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Quit.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Tv.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Radio.Hide">false</setting>
+        <setting type="bool" name="skin.nebula.Fixed_HomeMenu">false</setting>
+        <setting type="bool" name="skin.nebula.Hide.Favourites">false</setting>
+        <setting type="bool" name="skin.nebula.Shelf.Addons">false</setting>
+        <setting type="bool" name="skin.nebula.QuitMenu_Hide_Quit">false</setting>
+        <setting type="bool" name="skin.nebula.QuitMenu_Hide_Sleep">false</setting>
+        <setting type="bool" name="skin.nebula.QuitMenu_Hide_Shutdown">false</setting>
+        <setting type="bool" name="skin.nebula.QuitMenu_Hide_Reboot">false</setting>
+        <setting type="bool" name="skin.nebula.QuitMenu_Hide_Timer">false</setting>
+        <setting type="bool" name="skin.nebula.VerticalHome">false</setting>
+        <setting type="bool" name="skin.nebula.BlackGlassMode">false</setting>
+        <setting type="bool" name="skin.nebula.SmartShortcuts.emby">false</setting>
+        <setting type="bool" name="skin.nebula.SmartShortcuts.playlists">false</setting>
+        <setting type="bool" name="skin.nebula.SmartShortcuts.favorites">false</setting>
+        <setting type="bool" name="skin.nebula.SmartShortcuts.plex">false</setting>
+        <setting type="bool" name="skin.nebula.SmartShortcuts.netflix">false</setting>
+        <setting type="bool" name="skin.nebula.SkinShortcuts-FullMenu">true</setting>
+        <setting type="bool" name="skin.nebula.DisableAllWidgets">false</setting>
+        <setting type="bool" name="skin.nebula.52_ShowPlot">false</setting>
+        <setting type="bool" name="skin.nebula.53_UseBanners">false</setting>
+        <setting type="bool" name="skin.nebula.53_BigGrid">false</setting>
+        <setting type="bool" name="skin.nebula.AutoFocusUnwatchedEpisode">false</setting>
+        <setting type="bool" name="skin.mimic.ColorCustomizer.Enabled">true</setting>
+        <setting type="bool" name="skin.mimic.Enable.HomeTopMenu">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.HomeVerticalMenu">false</setting>
+        <setting type="bool" name="skin.mimic.KioskMode.Enabled">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.Fanart">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.HomeFanartOverlay">true</setting>
+        <setting type="bool" name="skin.mimic.Disable.ShowPlayingMusic">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.HomeDefault">true</setting>
+        <setting type="bool" name="skin.mimic.Enable.SlimList">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.ShowcaseInfopanel">false</setting>
+        <setting type="bool" name="skin.mimic.VideoInfoPlotToggle">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.AutoScroll">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.Extrafanart">false</setting>
+        <setting type="bool" name="skin.mimic.InfoWall.LargeIcons">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.ShiftPlot">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.ShiftDescription">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.ShowPlayingVideo">false</setting>
+        <setting type="bool" name="skin.mimic.nohighlist">false</setting>
+        <setting type="bool" name="skin.mimic.PictureInfo.Disabled">false</setting>
+        <setting type="bool" name="skin.mimic.AutoFocusUnwatchedEpisode">false</setting>
+        <setting type="bool" name="skin.mimic.EnableExtraFanart">false</setting>
+        <setting type="bool" name="skin.mimic.SmartShortcuts.emby">false</setting>
+        <setting type="bool" name="skin.mimic.SmartShortcuts.playlists">false</setting>
+        <setting type="bool" name="skin.mimic.SmartShortcuts.favorites">false</setting>
+        <setting type="bool" name="skin.mimic.SmartShortcuts.plex">false</setting>
+        <setting type="bool" name="skin.mimic.SmartShortcuts.netflix">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.Videoinfo">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.Musicinfo">false</setting>
+        <setting type="bool" name="skin.mimic.OriginalMenu">false</setting>
+        <setting type="bool" name="skin.mimic.HorizontalListNav">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.WidgetPressUp">true</setting>
+        <setting type="bool" name="skin.mimic.Disable.Topbarinfo">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.WidgetAutoScroll">false</setting>
+        <setting type="bool" name="skin.mimic.Enable.BasicWeatherView">false</setting>
+        <setting type="bool" name="skin.mimic.DisableAllWidgets">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.NextAired">true</setting>
+        <setting type="bool" name="skin.mimic.Disable.SubmenuSlide">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget2">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget3">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget4">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget5">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget6">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget7">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget8">false</setting>
+        <setting type="bool" name="skin.mimic.Expand.CustomWidget1">false</setting>
+        <setting type="bool" name="skin.mimic.Use_Startup_Playlist">true</setting>
+        <setting type="bool" name="skin.mimic.Disable.AutoComplete">false</setting>
+        <setting type="bool" name="skin.confluence.AutoScroll">false</setting>
+        <setting type="bool" name="skin.confluence.FirstTimeRun">true</setting>
+        <setting type="bool" name="skin.confluence.SmartShortcuts.emby">false</setting>
+        <setting type="bool" name="skin.confluence.SmartShortcuts.playlists">false</setting>
+        <setting type="bool" name="skin.confluence.SmartShortcuts.favorites">false</setting>
+        <setting type="bool" name="skin.confluence.SmartShortcuts.plex">false</setting>
+        <setting type="bool" name="skin.confluence.SmartShortcuts.netflix">false</setting>
+        <setting type="bool" name="skin.confluence.Show_SlideShow_Paused">false</setting>
+        <setting type="bool" name="skin.confluence.WindowedTrailer">false</setting>
+        <setting type="bool" name="skin.confluence.HideFilenameFlagging">false</setting>
+        <setting type="bool" name="skin.confluence.ActivateTvTunes">false</setting>
+        <setting type="bool" name="skin.confluence.HideVisualizationFanart">false</setting>
+        <setting type="bool" name="skin.titan.FullscreenMusic">false</setting>
+        <setting type="bool" name="skin.titan.HideMouseCursor">false</setting>
+        <setting type="bool" name="skin.titan.LowPerformanceMode">true</setting>
+        <setting type="bool" name="skin.titan.UseSlimOSDPanel">false</setting>
+        <setting type="bool" name="skin.titan.ShowWeatherVideoInfoOSD">true</setting>
+        <setting type="bool" name="skin.titan.OSDShowInfoOnPause">true</setting>
+        <setting type="bool" name="skin.titan.EnableFakeDiscArt">false</setting>
+        <setting type="bool" name="skin.titan.HideOSDDisc">false</setting>
+        <setting type="bool" name="skin.titan.EnableTouchSupport">false</setting>
+        <setting type="bool" name="skin.titan.OSDLargeSeekingLabel">false</setting>
+        <setting type="bool" name="skin.titan.SpinnerDimScreen">true</setting>
+        <setting type="bool" name="skin.titan.ShowFanartBackground">true</setting>
+        <setting type="bool" name="skin.titan.EnableExtraFanart">false</setting>
+        <setting type="bool" name="skin.titan.DisableHeader">false</setting>
+        <setting type="bool" name="skin.titan.nofooterbar">false</setting>
+        <setting type="bool" name="skin.titan.BackgroundAnimation">false</setting>
+        <setting type="bool" name="skin.titan.View50_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.UseSectionBackground">true</setting>
+        <setting type="bool" name="skin.titan.View51_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View52_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View53_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View54_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View55_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View56_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View57_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View58_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View59_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View500_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View502_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View505_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View506_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View507_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View508_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View509_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View510_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View511_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View512_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View513_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View514_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.View515_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.BackgroundOverlayMediaViewOnly">true</setting>
+        <setting type="bool" name="skin.titan.BackgroundOverlayHomeOnly">false</setting>
+        <setting type="bool" name="skin.titan.DisableNowPlayingBackground">false</setting>
+        <setting type="bool" name="skin.titan.enableArtistSlideshow">true</setting>
+        <setting type="bool" name="skin.titan.WeatherOnHome">true</setting>
+        <setting type="bool" name="skin.titan.ShowProfile">false</setting>
+        <setting type="bool" name="skin.titan.AutoShowWidgets">false</setting>
+        <setting type="bool" name="skin.titan.ShowMovieTitleHeader">false</setting>
+        <setting type="bool" name="skin.titan.NoFooterBarOnHome">true</setting>
+        <setting type="bool" name="skin.titan.StudioInFooter">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuDefaults32">true</setting>
+        <setting type="bool" name="skin.titan.ShowLogoAltLocation">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuDefaults33">true</setting>
+        <setting type="bool" name="skin.titan.WidgetDefaults8">true</setting>
+        <setting type="bool" name="skin.titan.EnableArtworkDownloader">true</setting>
+        <setting type="bool" name="skin.titan.AutoFocusUnwatchedEpisode">false</setting>
+        <setting type="bool" name="skin.titan.DetailsShowFanart">true</setting>
+        <setting type="bool" name="skin.titan.View502_ShowCDart">true</setting>
+        <setting type="bool" name="skin.titan.View514_ShowCDart">true</setting>
+        <setting type="bool" name="skin.titan.View513_ShowCDart">true</setting>
+        <setting type="bool" name="skin.titan.View508_ShowCDart">true</setting>
+        <setting type="bool" name="skin.titan.View58_ShowCDart">true</setting>
+        <setting type="bool" name="skin.titan.PanelViewShowInfo">true</setting>
+        <setting type="bool" name="skin.titan.ShowlabelsLandscape">true</setting>
+        <setting type="bool" name="skin.titan.AnimateDiscArt">true</setting>
+        <setting type="bool" name="skin.titan.GuideShowInfo">true</setting>
+        <setting type="bool" name="skin.titan.HideWatchedRecentlyAdded">true</setting>
+        <setting type="bool" name="skin.titan.IsTitanSkin">true</setting>
+        <setting type="bool" name="skin.titan.SmartShortcuts.playlists">true</setting>
+        <setting type="bool" name="skin.titan.PVRShowPreview">true</setting>
+        <setting type="bool" name="skin.titan.SmartShortcuts.emby">true</setting>
+        <setting type="bool" name="skin.titan.useExtendedWeatherScreen">true</setting>
+        <setting type="bool" name="skin.titan.OSDUseLargeIcons">true</setting>
+        <setting type="bool" name="skin.titan.PVRGuideBackSideblade">true</setting>
+        <setting type="bool" name="skin.titan.WatchedIndicator.Watched">true</setting>
+        <setting type="bool" name="skin.titan.WatchedIndicator.Progress">true</setting>
+        <setting type="bool" name="skin.titan.WatchedIndicator.Sets">true</setting>
+        <setting type="bool" name="skin.titan.WatchedIndicator.Episodes">true</setting>
+        <setting type="bool" name="skin.titan.DisableSplashScreen">false</setting>
+        <setting type="bool" name="skin.titan.enable.smartish.widgets">true</setting>
+        <setting type="bool" name="skin.titan.SmartShortcuts.plex">false</setting>
+        <setting type="bool" name="skin.titan.EnableNextAiredNotifications">false</setting>
+        <setting type="bool" name="skin.titan.SmartShortcuts.favorites">false</setting>
+        <setting type="bool" name="skin.titan.SmartShortcuts.netflix">false</setting>
+        <setting type="bool" name="skin.titan.UseFixedHomeFocus">false</setting>
+        <setting type="bool" name="skin.titan.DisableAllWidgets">false</setting>
+        <setting type="bool" name="skin.titan.DisableAllSubmenus">false</setting>
+        <setting type="bool" name="skin.titan.CaseOverlays">false</setting>
+        <setting type="bool" name="skin.titan.UseSmallHomeTiles">true</setting>
+        <setting type="bool" name="skin.titan.HideWidgetPanelBackground">false</setting>
+        <setting type="bool" name="skin.titan.PreferTvShowThumbWidget">false</setting>
+        <setting type="bool" name="skin.titan.DisableLandscapeThumbs">false</setting>
+        <setting type="bool" name="skin.titan.ShowLabels57">false</setting>
+        <setting type="bool" name="skin.titan.ShowLabels59">false</setting>
+        <setting type="bool" name="skin.titan.ShowLabels52">false</setting>
+        <setting type="bool" name="skin.titan.HideHomeTileIndicators">false</setting>
+        <setting type="bool" name="skin.titan.NoShadowOnHomeMenuTiles">false</setting>
+        <setting type="bool" name="skin.titan.NoTitleOnHomeMenuTiles">false</setting>
+        <setting type="bool" name="skin.titan.DisablePowerMenu">true</setting>
+        <setting type="bool" name="skin.titan.VerticalHomeInlineSubmenu">false</setting>
+        <setting type="bool" name="skin.titan.AutoShowSubmenu">false</setting>
+        <setting type="bool" name="skin.titan.DebugGrid">false</setting>
+        <setting type="bool" name="skin.titan.DebugInfo">false</setting>
+        <setting type="bool" name="skin.titan.HideDebugInfo">false</setting>
+        <setting type="bool" name="skin.titan.SkinShortcuts-FullMenu">true</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.55">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.500">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.51">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.52">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.53">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.54">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.506">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.56">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.57">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.59">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.501">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.502">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.503">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.505">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.507">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.509">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.510">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.511">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.512">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.513">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.514">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.515">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.516">false</setting>
+        <setting type="bool" name="skin.titan.View52_UseFixedLayout">false</setting>
+        <setting type="bool" name="skin.titan.HideWatchedCounts">false</setting>
+        <setting type="bool" name="skin.titan.ListViewShowBanners">false</setting>
+        <setting type="bool" name="skin.titan.View.Disabled.50">false</setting>
+        <setting type="bool" name="skin.titan.ForcedViews.Enabled">false</setting>
+        <setting type="bool" name="skin.titan.alwaysShowScrollbars">false</setting>
+        <setting type="bool" name="skin.titan.DetailsLeftHidepanel">false</setting>
+        <setting type="bool" name="skin.titan.ShowCaseViewShowInfo">false</setting>
+        <setting type="bool" name="skin.titan.flattenshowcase">false</setting>
+        <setting type="bool" name="skin.titan.View51_HidePanel">false</setting>
+        <setting type="bool" name="skin.titan.BigListViewShowInfo">false</setting>
+        <setting type="bool" name="skin.titan.View51_UseSlimList">false</setting>
+        <setting type="bool" name="skin.titan.View51_ShowCDart">false</setting>
+        <setting type="bool" name="skin.titan.HideWatchedOverlayList">false</setting>
+        <setting type="bool" name="skin.titan.View52_ShowCDart">false</setting>
+        <setting type="bool" name="skin.titan.LandscapeViewShowInfo">false</setting>
+        <setting type="bool" name="skin.titan.LogoViewShowInfo">false</setting>
+        <setting type="bool" name="skin.titan.LogoViewPreferClearArt">false</setting>
+        <setting type="bool" name="skin.titan.FanArtViewShowInfo">false</setting>
+        <setting type="bool" name="skin.titan.ShowLabelsSquare">false</setting>
+        <setting type="bool" name="skin.titan.ShowLabelsSquareDetails">false</setting>
+        <setting type="bool" name="skin.titan.View515_HidePanel">false</setting>
+        <setting type="bool" name="skin.titan.View515_UseSlimList">false</setting>
+        <setting type="bool" name="skin.titan.View516_HidePanel">false</setting>
+        <setting type="bool" name="skin.titan.SlimListViewShowInfo">false</setting>
+        <setting type="bool" name="skin.titan.KioskMode.Enabled">false</setting>
+        <setting type="bool" name="skin.titan.View501_DisableFanArt">false</setting>
+        <setting type="bool" name="skin.titan.DisableSubtitles">false</setting>
+        <setting type="bool" name="skin.titan.EnableWeatherNotifications">false</setting>
+        <setting type="bool" name="skin.titan.EnableOSDInfo">false</setting>
+        <setting type="bool" name="skin.titan.AlwaysShowMusicInfo">false</setting>
+        <setting type="bool" name="skin.titan.OSDSubtitleButtonFocus">false</setting>
+        <setting type="bool" name="skin.titan.UseExtendedInfoDialog">false</setting>
+        <setting type="bool" name="skin.titan.ShowEpgGenreColors">false</setting>
+        <setting type="bool" name="skin.titan.UseAltEpgProgress">false</setting>
+        <setting type="bool" name="skin.titan.HideChannelNamesInGuide">false</setting>
+        <setting type="bool" name="skin.titan.VerticalHomeTiles">false</setting>
+        <setting type="bool" name="skin.titan.HideBatteryStatus">false</setting>
+        <setting type="bool" name="skin.titan.EnableTVTunes">false</setting>
+        <setting type="bool" name="skin.titan.showlyrics">false</setting>
+        <setting type="bool" name="skin.titan.DisableLyricsOverlay">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.SmartShortcuts.emby">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.SmartShortcuts.playlists">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.SmartShortcuts.favorites">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.SmartShortcuts.plex">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.SmartShortcuts.netflix">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.DisableAllWidgets">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.AutoFocusUnwatchedEpisode">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.EnableExtraFanart">false</setting>
+        <setting type="bool" name="skin.mimic.Disable.Resumable">false</setting>
+        <setting type="bool" name="skin.mimic.EnableNextAiredNotifications">false</setting>
+        <setting type="bool" name="skin.mimic.highlightcolor.name.preset">true</setting>
+        <setting type="bool" name="skin.mimic.backgroundcolor.name.preset">true</setting>
+        <setting type="bool" name="skin.mimic.dialogcolor.name.preset">false</setting>
+        <setting type="bool" name="skin.mimic.textcolor.name.preset">true</setting>
+        <setting type="bool" name="skin.mimic.menucolor.name.preset">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Enable.HomeDefault">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.Enable.HomeDefault">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.SmartShortcuts.emby">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.SmartShortcuts.playlists">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.SmartShortcuts.favorites">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.SmartShortcuts.plex">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.SmartShortcuts.netflix">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.DisableAllWidgets">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.AutoFocusUnwatchedEpisode">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.EnableExtraFanart">false</setting>
+        <setting type="bool" name="skin.nebula.Enable.HomeDefault">true</setting>
+        <setting type="bool" name="skin.nebula.EnableNextAiredNotifications">false</setting>
+        <setting type="bool" name="skin.titan.Use_Startup_Playlist">false</setting>
+        <setting type="bool" name="skin.titan.UseCustomBackground">false</setting>
+        <setting type="bool" name="skin.titan.HideBackGroundFanart">false</setting>
+        <setting type="bool" name="skin.titan.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.titan.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.titan.HomepageHideRecentlyAddedVideo">false</setting>
+        <setting type="bool" name="skin.titan.HomepageHideRecentlyAddedAlbums">false</setting>
+        <setting type="bool" name="skin.titan.homepageWeatherinfo">false</setting>
+        <setting type="bool" name="skin.titan.homepageMusicinfo">false</setting>
+        <setting type="bool" name="skin.titan.homepageVideoinfo">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoMovieButton">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoTVShowButton">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoWeatherButton">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoPicturesButton">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoVideosButton">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoMusicButton">false</setting>
+        <setting type="bool" name="skin.titan.HomeMenuNoProgramsButton">false</setting>
+        <setting type="bool" name="skin.titan.AutoScroll">false</setting>
+        <setting type="bool" name="skin.titan.FirstTimeRun">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.EnableNextAiredNotifications">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.Enable.HomeTopMenu">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.Enable.HomeVerticalMenu">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/About/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Kids/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Movies/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Music/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Sport/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/TVGuide/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/TVShows/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/YouTube/">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.EnableNextAiredNotifications">false</setting>
+        <setting type="bool" name="skin.titan.Enable.HomeDefault">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/About/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Kids/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Movies/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Music/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Sport">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/TVGuide/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/TVShows/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/YouTube/">true</setting>
+        <setting type="bool" name="skin.confluence.Enable.HomeDefault">true</setting>
+        <setting type="bool" name="skin.confluence.EnableNextAiredNotifications">false</setting>
+        <setting type="bool" name="skin.confluence.View508HideInfo">false</setting>
+        <setting type="bool" name="skin.confluence.AutoFocusUnwatchedEpisode">false</setting>
+        <setting type="bool" name="skin.confluence.EnableExtraFanart">false</setting>
+        <setting type="bool" name="skin.confluence.DisableAllWidgets">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.LanguageSet">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.nofooterbar">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.EnableTouchSupport">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.alwaysShowScrollbars">false</setting>
+        <setting type="bool" name="skin.mimic.nofooterbar">false</setting>
+        <setting type="bool" name="skin.mimic.EnableTouchSupport">false</setting>
+        <setting type="bool" name="skin.mimic.alwaysShowScrollbars">false</setting>
+        <setting type="bool" name="skin.confluence.Enable.HomeTopMenu">false</setting>
+        <setting type="bool" name="skin.confluence.Enable.HomeVerticalMenu">false</setting>
+        <setting type="bool" name="skin.confluence.nofooterbar">false</setting>
+        <setting type="bool" name="skin.confluence.EnableTouchSupport">false</setting>
+        <setting type="bool" name="skin.confluence.alwaysShowScrollbars">false</setting>
+        <setting type="bool" name="skin.confluence.TimezoneCountrySet">true</setting>
+        <setting type="bool" name="skin.confluence.LanguageSet">true</setting>
+        <setting type="bool" name="skin.confluence.ShowWeatherFanart">false</setting>
+        <setting type="bool" name="skin.confluence.WeatherScript_Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.ShowWeatherFanart">false</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-widget-Addon">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-widget-Favourite">true</setting>
+        <setting type="bool" name="skin.aeon.nox.5.DisableHeader">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.UseSubmenuImages">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.UseSectionBackground">false</setting>
+        <setting type="bool" name="skin.mimic.DisableHeader">false</setting>
+        <setting type="bool" name="skin.mimic.UseSubmenuImages">false</setting>
+        <setting type="bool" name="skin.mimic.UseSectionBackground">false</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Addons/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Favourites/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Settings/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/About/">true</setting>
+        <setting type="bool" name="skin.arctic.zephyr.skinshortcuts-background-/storage/.kodi/media/branding/back/Weather/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/About/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Addons/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Favourites/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Settings/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/About/">true</setting>
+        <setting type="bool" name="skin.nebula.Enable.HomeTopMenu">false</setting>
+        <setting type="bool" name="skin.nebula.Enable.HomeVerticalMenu">false</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Addons/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Settings/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Favourites/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/addons.jpg">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Favourites.jpg">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/fg.jpg">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/usic.jpg">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/sport.jpg">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/431301.jpg">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/253074-1Kddld1423857570.png">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Kids/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Movies/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Music/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Sport/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/TV_Guide/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/TV_Shows/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/Weather/">true</setting>
+        <setting type="bool" name="skin.nebula.skinshortcuts-background-/storage/.kodi/media/branding/back/YouTube/">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/addons.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Favourites.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/kids.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/movies.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/music.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/sport.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/tvguide.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/Tvshows.jpg">true</setting>
+        <setting type="bool" name="skin.titan.skinshortcuts-background-/storage/.kodi/media/branding/back/YouTube.png">true</setting>
+        <setting type="bool" name="skin.titan.UseSubmenuImages">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.HideVisualizationFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.BigAssLabel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Enable.VizInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5.Enable.VizPersistent">false</setting>
+        <setting type="string" name="skin.confluence.CustomBackgroundPath"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton1"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton2"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton3"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton4"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton5"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton1"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton2"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton3"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton4"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton5"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton1"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton2"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton3"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton4"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton5"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton1"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton2"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton3"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton4"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton5"></setting>
+        <setting type="string" name="skin.arctic.zephyr.focuscolor.name"></setting>
+        <setting type="string" name="skin.arctic.zephyr.busyloader">special://skin/extras/spinners/spaceatom.gif</setting>
+        <setting type="string" name="skin.arctic.zephyr.weather.fanart"></setting>
+        <setting type="string" name="skin.arctic.zephyr.home.slideshowpath"></setting>
+        <setting type="string" name="skin.arctic.zephyr.fanart.fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.arctic.zephyr.CustomWidget1"></setting>
+        <setting type="string" name="skin.arctic.zephyr.CustomWidget2"></setting>
+        <setting type="string" name="skin.arctic.zephyr.CustomWidget3"></setting>
+        <setting type="string" name="skin.arctic.zephyr.CustomWidget4"></setting>
+        <setting type="string" name="skin.arctic.zephyr.StartupPlaylist">/storage/.config/intro.mp4</setting>
+        <setting type="string" name="skin.arctic.zephyr.MovieHubWidget"></setting>
+        <setting type="string" name="skin.arctic.zephyr.TVHubWidget"></setting>
+        <setting type="string" name="skin.arctic.zephyr.skinshortcuts-widget-1">InCinemas</setting>
+        <setting type="string" name="skin.arctic.zephyr.skinshortcuts-widget-2">TrendingShows</setting>
+        <setting type="string" name="skin.arctic.zephyr.skinshortcuts-widget-3">TrendingShows</setting>
+        <setting type="string" name="skin.aeon.nox.5.VideoGenreFanartPath"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicGenreFanartPath"></setting>
+        <setting type="string" name="skin.aeon.nox.5.System.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherFanartDir">http://aeon-nox-background-packs.googlecode.com/svn/trunk/weather-fanart/default/</setting>
+        <setting type="string" name="skin.aeon.nox.5.InfoPanel.Delay">2</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.Label">[COLOR blue]F[/COLOR]avourite[COLOR blue]S[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.MultiFanart">/storage/.kodi/media/branding/back/favourites.jpg</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.Path">ActivateWindow(Favourites)</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.SubMenu">x101</setting>
+        <setting type="string" name="skin.aeon.nox.5.PicturesHomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.Label">[COLOR blue]M[/COLOR]ovie[COLOR blue]s[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.MultiFanart">/storage/.kodi/media/branding/back/movies.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.Icon">views/list/DefaultAddonMusic.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movieNavigator&quot;,return)</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.SubMenu">x3</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicHomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.Label">[COLOR blue]T[/COLOR]V Show[COLOR blue]S[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.MultiFanart">/storage/.kodi/media/branding/back/tvshows.jpg</setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.Icon">views/list/DefaultAddonPVRClient.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=tvNavigator&quot;,return)</setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.SubMenu">x12</setting>
+        <setting type="string" name="skin.aeon.nox.5.MovieHomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.Label">[COLOR blue]L[/COLOR]ive T[COLOR blue]V[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.MultiFanart">/storage/.kodi/media/branding/back/live_tv.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.Path">RunAddOn(script.tvguidetecbox)</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.SubMenu">x303</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShowHomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.Label">[COLOR blue]M[/COLOR]USI[COLOR blue]C[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.MultiFanart">/storage/.kodi/media/branding/back/music.jpg</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.Icon">views/list/DefaultMovies.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.Path">ActivateWindow(10501,&quot;plugin://plugin.audio.mp3streams&quot;,return)</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.SubMenu">x10</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTVHomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.Label">[COLOR blue]R[/COLOR]adi[COLOR blue]o[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.Icon">views/list/DefaultPicture.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.Path">ActivateWindow(10501,&quot;plugin://plugin.audio.radio_de&quot;,return)</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.SubMenu">x4</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom1HomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.Label">[COLOR blue]S[/COLOR]etting[COLOR blue]S[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.MultiFanart">/storage/.kodi/media/branding/back/settings.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.Icon">views/list/DefaultAddonService.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.Path">ActivateWindow(Settings)</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.SubMenu">x5</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom2HomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.Label">[COLOR blue]A[/COLOR]DUL[COLOR blue]T[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.Icon">views/list/DefaultMusicVideos.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=ADULT+LOCK&amp;mode=400&amp;path=special://profile/addon_data/plugin.program.super.favourites/Super+Favourites/ADULT+LOCK&amp;image=/storage/.kodi/addons/plugin.program.super.favourites/icon.png&amp;fanart=NULL&quot;,return)</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.SubMenu">x13</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom3HomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.Label">[COLOR blue]K[/COLOR]id[COLOR blue]s[/COLOR]</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.MultiFanart">/storage/.kodi/media/branding/back/kids.jpg</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=Kids&quot;)</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.SubMenu">x202</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom4HomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.Label">Addons</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.MultiFanart">/storage/.kodi/media/branding/back/Addons/</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.Icon">views/list/DefaultPicture.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=Addons&quot;)</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.BGType">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.SubMenu">x4</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom5HomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Custom6HomeItem.Disable"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.Label">CUSTOM2</setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.SubMenu">x202</setting>
+        <setting type="string" name="skin.aeon.nox.5.VideosHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ProgramsHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.Label">VIDEOS</setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.Icon">views/list/DefaultVideo.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.Path">ActivateWindow(Videos,root)</setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.SubMenu">x2</setting>
+        <setting type="string" name="skin.aeon.nox.5.SettingsHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ShutdownHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.Label">CUSTOM6</setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.SubMenu">x606</setting>
+        <setting type="string" name="skin.aeon.nox.5.FavoritesHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.Label">CUSTOM5</setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.SubMenu">x505</setting>
+        <setting type="string" name="skin.aeon.nox.5.WeatherHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.Label">CUSTOM5</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.SubMenu">x505</setting>
+        <setting type="string" name="skin.aeon.nox.5.MusicVideoHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.aeon.nox.5.ItemToEdit.BGType"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ItemToEdit.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.5.53.Movies.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.53.TVShows.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.53.Seasons.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.53.Sets.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.52.Movies.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.52.TVShows.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.52.Seasons.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.52.Episodes.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.52.Sets.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Movies.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.TVShows.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Videos.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Apps.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Overlay.Toggle">1</setting>
+        <setting type="string" name="skin.nebula.Default.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.weatherArtPath"></setting>
+        <setting type="string" name="skin.nebula.Videos.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.Movies.Background"></setting>
+        <setting type="string" name="skin.nebula.Pictures.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.TVShows.Background"></setting>
+        <setting type="string" name="skin.nebula.Tv.Background"></setting>
+        <setting type="string" name="skin.nebula.Radio.Background"></setting>
+        <setting type="string" name="skin.nebula.Music.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.Clips.Background"></setting>
+        <setting type="string" name="skin.nebula.Concerts.Background"></setting>
+        <setting type="string" name="skin.nebula.Weather.Background"></setting>
+        <setting type="string" name="skin.nebula.Addons.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.DVD.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.Settings.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.Favourites.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.Quit.Background">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.WeatherView">slimlist</setting>
+        <setting type="string" name="skin.nebula.randomfanartdelay"></setting>
+        <setting type="string" name="skin.nebula.LyricPath"></setting>
+        <setting type="string" name="skin.nebula.MusicPath"></setting>
+        <setting type="string" name="skin.nebula.cdartPath"></setting>
+        <setting type="string" name="skin.nebula.StartupWindow"></setting>
+        <setting type="string" name="skin.nebula.CustomStartup.Path"></setting>
+        <setting type="string" name="skin.nebula.StartupWindowOption"></setting>
+        <setting type="string" name="skin.nebula.CustomStartup.Label"></setting>
+        <setting type="string" name="skin.nebula.startup-screentype">video</setting>
+        <setting type="string" name="skin.nebula.startup-multiimagepath"></setting>
+        <setting type="string" name="skin.nebula.startup-imagepath">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.nebula.startup-videopath">/storage/.config/intro.mp4</setting>
+        <setting type="string" name="skin.nebula.startup-playlisttype">video</setting>
+        <setting type="string" name="skin.nebula.startup-musicplaylistpath"></setting>
+        <setting type="string" name="skin.nebula.startup-videoplaylistpath"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.1.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.2.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.3.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.4.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.5.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.6.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.7.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.8.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.9.Label"></setting>
+        <setting type="string" name="skin.nebula.ShelfAddons.10.Label"></setting>
+        <setting type="string" name="skin.nebula.CustomPicturesBackgroundPath"></setting>
+        <setting type="string" name="skin.nebula.GadgetRows"></setting>
+        <setting type="string" name="skin.nebula.widget-music"></setting>
+        <setting type="string" name="skin.nebula.widget-"></setting>
+        <setting type="string" name="skin.nebula.widget-sports"></setting>
+        <setting type="string" name="skin.nebula.widget-tvshows"></setting>
+        <setting type="string" name="skin.nebula.widget-plugin-video-youtube"></setting>
+        <setting type="string" name="skin.nebula.widget-plugin.video.youtube"></setting>
+        <setting type="string" name="skin.nebula.widget-settings"></setting>
+        <setting type="string" name="skin.nebula.widget-addons"></setting>
+        <setting type="string" name="skin.nebula.widget-movies"></setting>
+        <setting type="string" name="skin.mimic.dialogcolor.name">FFCCCCCC</setting>
+        <setting type="string" name="skin.mimic.highlightcolor.name">FF3989D3</setting>
+        <setting type="string" name="skin.mimic.textcolor.name">FFCCCCCC</setting>
+        <setting type="string" name="skin.mimic.backgroundcolor.name">FF444444</setting>
+        <setting type="string" name="skin.mimic.randomfanartdelay"></setting>
+        <setting type="string" name="skin.mimic.System.Fallback"></setting>
+        <setting type="string" name="skin.mimic.WeatherFanartDir">http://aeon-nox-background-packs.googlecode.com/svn/trunk/weather-fanart/default/</setting>
+        <setting type="string" name="skin.mimic.CustomBackground">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.mimic.Movies.Fallback"></setting>
+        <setting type="string" name="skin.mimic.TVShows.Fallback"></setting>
+        <setting type="string" name="skin.mimic.Videos.Fallback"></setting>
+        <setting type="string" name="skin.mimic.MusicLibraryPath"></setting>
+        <setting type="string" name="skin.mimic.CustomPicturesBackgroundPath"></setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=Music&quot;)</setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=Sports&quot;)</setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.Path">RunAddOn(script.tvguidetecbox)</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=TV+Shows&quot;)</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.Path">ActivateWindow(Weather)</setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.video.youtube&quot;,return)</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.Disable"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.Disable">True</setting>
+        <setting type="string" name="skin.mimic.menucolor.name">FFCCCCCC</setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.Label">About</setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.MultiFanart">/storage/.kodi/media/branding/back/About/</setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.Icon">DefaultVideo.png</setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.Path">ActivateWindow(Videos,root)</setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.BGType">2</setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.PicturesHomeItem.SubMenu">x2</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.Label">Addons</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.MultiFanart">/storage/.kodi/media/branding/back/Addons/</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.Icon">DefaultPicture.png</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.Path">ActivateWindow(Videos,root)</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.Widget">addons://sources/video/</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.WidgetLabel">Video add-ons</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.WidgetType">1</setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.MusicHomeItem.SubMenu">x4</setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.Label">Favourites</setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.MultiFanart">/storage/.kodi/media/branding/back/Favourites/</setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.Path">ActivateWindow(Favourites)</setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.MovieHomeItem.SubMenu">x303</setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.Label">Kids</setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.MultiFanart">/storage/.kodi/media/branding/back/Kids/</setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=Kids&quot;)</setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.TVShowHomeItem.SubMenu">x404</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.Label">Movies</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.MultiFanart">/storage/.kodi/media/branding/back/Movies/</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.Icon">DefaultAddonMusic.png</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?folder=Movies&quot;)</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.Widget">20</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.WidgetLabel">Trending Movies</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.WidgetType">1</setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.LiveTVHomeItem.SubMenu">x3</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.Label">Settings</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.MultiFanart">/storage/.kodi/media/branding/back/Settings/</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.Path">ActivateWindow(10025,&quot;plugin://plugin.program.tbs&quot;)</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.VideosHomeItem.SubMenu">x202</setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.Label"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.Icon"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.Path"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.BGType"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.ProgramsHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.Label"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.Icon"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.Path"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.BGType"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.SettingsHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.Label"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.Icon"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.Path"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.BGType"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.ShutdownHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.Label"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.Icon"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.Path"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.BGType"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.FavoritesHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.Label"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.Icon"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.Path"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.BGType"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.WeatherHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.Label"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.Icon"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.Path"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.BGType"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.MusicVideoHomeItem.SubMenu"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget1Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget2Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget3Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget4Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget5Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget6Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget7Path.List"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget8Path.List"></setting>
+        <setting type="string" name="skin.mimic.GadgetRows"></setting>
+        <setting type="string" name="skin.mimic.widget-"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget1Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget1IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget2Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget2IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget3Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget3IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget4Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget4IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget5Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget5IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget6Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget6IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget7Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget7IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.CustomWidget8Name"></setting>
+        <setting type="string" name="skin.mimic.CustomWidget8IconLabel">Poster</setting>
+        <setting type="string" name="skin.mimic.Startup_Playlist_Path">/storage/.kodi/userdata/playlists/video/start.m3u</setting>
+        <setting type="string" name="skin.mimic.CustomWidget1Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget2Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget3Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget4Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget5Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget6Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget7Icon">1</setting>
+        <setting type="string" name="skin.mimic.CustomWidget8Icon">1</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.Label">Music</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.MultiFanart">/storage/.kodi/media/branding/back/Music/</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.Icon">DefaultMovies.png</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.Widget">23</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.WidgetLabel">Top Artists</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.WidgetType">2</setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.Custom1HomeItem.SubMenu">x10</setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.Label">Sports</setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.MultiFanart">/storage/.kodi/media/branding/back/Sport/</setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.Icon">DefaultAddonPVRClient.png</setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.Custom2HomeItem.SubMenu">x12</setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.Label">TV Guide</setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.MultiFanart">/storage/.kodi/media/branding/back/TV_Guide/</setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.BGType">2</setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.Custom3HomeItem.SubMenu">x505</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.Label">TV Shows</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.MultiFanart">/storage/.kodi/media/branding/back/TV_Shows/</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.Icon">DefaultTVShows.png</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.BGType">2</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.Widget">21</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.WidgetLabel">Trending TV Shows</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.WidgetType">1</setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.Custom4HomeItem.SubMenu">x11</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.Label">Weather</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.MultiFanart">/storage/.kodi/media/branding/back/Weather/</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.BGType">2</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.Widget">11</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.WidgetLabel">Weather</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.WidgetType">3</setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.Custom5HomeItem.SubMenu">x606</setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.Label">YouTube</setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.MultiFanart">/storage/.kodi/media/branding/back/YouTube/</setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.Icon">special://skin/extras/icons/Customize.png</setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.BGType">1</setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.Widget"></setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.InfoLine"></setting>
+        <setting type="string" name="skin.mimic.Custom6HomeItem.SubMenu">x101</setting>
+        <setting type="string" name="skin.confluence.randomfanartdelay"></setting>
+        <setting type="string" name="skin.confluence.CustomPicturesBackgroundPath"></setting>
+        <setting type="string" name="skin.confluence.Startup_Playlist_Path">/storage/.kodi/userdata/playlists/video/start.m3u</setting>
+        <setting type="string" name="skin.confluence.LyricScript_Path"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton6"></setting>
+        <setting type="string" name="skin.titan.ButtonFocusColor">mainblue</setting>
+        <setting type="string" name="skin.titan.GeneralTextColor">white</setting>
+        <setting type="string" name="skin.titan.OSDPanelColor">darkblue</setting>
+        <setting type="string" name="skin.titan.ViewDetailsFocusColor">mainblue</setting>
+        <setting type="string" name="skin.titan.GeneralPanelsColor">ff0f0f0f</setting>
+        <setting type="string" name="skin.titan.GeneralPanelsOpacity">60</setting>
+        <setting type="string" name="skin.titan.GadgetRows">enhanced</setting>
+        <setting type="string" name="skin.titan.ViewDetailsFocusShadowColor">black</setting>
+        <setting type="string" name="skin.titan.HeaderTextColor">white</setting>
+        <setting type="string" name="skin.titan.HeaderTextShadowColor">black</setting>
+        <setting type="string" name="skin.titan.OSDPanelOpacity">60</setting>
+        <setting type="string" name="skin.titan.OSDPrimaryTextColor">white</setting>
+        <setting type="string" name="skin.titan.OSDPrimaryTextShadowColor">None</setting>
+        <setting type="string" name="skin.titan.OSDSecondaryTextColor">mainblue</setting>
+        <setting type="string" name="skin.titan.OSDSecondaryTextShadowColor">None</setting>
+        <setting type="string" name="skin.titan.OSDProgressBarBackgroundColor">darkblue</setting>
+        <setting type="string" name="skin.titan.OSDProgressBarColor">mainblue</setting>
+        <setting type="string" name="skin.titan.FooterTextColor">ff000000</setting>
+        <setting type="string" name="skin.titan.OSDButtonsColor">aawhite</setting>
+        <setting type="string" name="skin.titan.ButtonTextColor">white</setting>
+        <setting type="string" name="skin.titan.ButtonFocusTextColor">black</setting>
+        <setting type="string" name="skin.titan.SpinnerTextureColor">mainblue</setting>
+        <setting type="string" name="skin.titan.SpinnerTexturePath">special://skin/extras/busy_spinners/default</setting>
+        <setting type="string" name="skin.titan.randomfanartdelay">30</setting>
+        <setting type="string" name="skin.titan.CustomWeatherFanArtPath"></setting>
+        <setting type="string" name="skin.titan.CustomBackgroundSetting">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.titan.ColorTheme">FF4d86a6</setting>
+        <setting type="string" name="skin.titan.OverlayOpacity">85</setting>
+        <setting type="string" name="skin.titan.ColorThemeTexture">Default</setting>
+        <setting type="string" name="skin.titan.CustomColorThemeTexture"></setting>
+        <setting type="string" name="skin.titan.SubmenuLayout">horizontal</setting>
+        <setting type="string" name="skin.titan.ButtonColor">ff002e63</setting>
+        <setting type="string" name="skin.titan.FooterPanelColor">darkblue</setting>
+        <setting type="string" name="skin.titan.FooterPanelOpacity">80</setting>
+        <setting type="string" name="skin.titan.FooterTextShadowColor">None</setting>
+        <setting type="string" name="skin.titan.HomeViewDetailsFocusColor">mainblue</setting>
+        <setting type="string" name="skin.titan.ViewDetailsTextShadowColor">none</setting>
+        <setting type="string" name="skin.titan.ViewDetailsPanelOpacity">60</setting>
+        <setting type="string" name="skin.titan.ViewDetailsTextColor">white</setting>
+        <setting type="string" name="skin.titan.RSSScrollSpeed">40</setting>
+        <setting type="string" name="skin.titan.WeatherIconPack">set1</setting>
+        <setting type="string" name="skin.titan.extrafanartdelay">6</setting>
+        <setting type="string" name="skin.titan.GeneralGeneralPanelsColor">darkblue</setting>
+        <setting type="string" name="skin.titan.ViewDetailsPanelColor">ff0f0f0f</setting>
+        <setting type="string" name="skin.titan.OSDProgressBarBgColor">None</setting>
+        <setting type="string" name="skin.titan.OSDProgressBarBorderColor">white</setting>
+        <setting type="string" name="skin.titan.OSDButtonsFocusColor">mainblue</setting>
+        <setting type="string" name="skin.titan.ScrollbarBackgroundColor">aa003153</setting>
+        <setting type="string" name="skin.titan.ScrollbarUnfocusedColor">aa00b8ff</setting>
+        <setting type="string" name="skin.titan.ScrollbarFocusedColor">ff00b8ff</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Watched.Color">cc0047ab</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Watched.TextColor">white</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Progress.Color">ccff7518</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Progress.TextColor">white</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Sets.Color">cced1c24</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Sets.TextColor">white</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Episodes.Color">cc228b22</setting>
+        <setting type="string" name="skin.titan.WatchedIndicator.Episodes.TextColor">white</setting>
+        <setting type="string" name="skin.titan.CaseOverlays.Color">dd011222</setting>
+        <setting type="string" name="skin.titan.CaseOverlays.TextColor">ddwhite</setting>
+        <setting type="string" name="skin.titan.CaseOverlays.Fallback">Bluray</setting>
+        <setting type="string" name="skin.titan.ForcedViews.movies">50</setting>
+        <setting type="string" name="skin.titan.ForcedViews.tvshows">50</setting>
+        <setting type="string" name="skin.titan.ForcedViews.seasons">50</setting>
+        <setting type="string" name="skin.titan.ForcedViews.episodes">50</setting>
+        <setting type="string" name="skin.titan.ForcedViews.sets">50</setting>
+        <setting type="string" name="skin.titan.ForcedViews.setmovies">50</setting>
+        <setting type="string" name="skin.titan.SpinnerTexture">default</setting>
+        <setting type="string" name="skin.titan.widgetstyle">landscape</setting>
+        <setting type="string" name="skin.titan.AutoStartPlayList"></setting>
+        <setting type="string" name="skin.titan.YoutubeWidget">popular</setting>
+        <setting type="string" name="skin.titan.ShowInfoAtPlaybackStart">6</setting>
+        <setting type="string" name="skin.titan.GuideRows">9</setting>
+        <setting type="string" name="skin.titan.ClearLogoLocation">footer</setting>
+        <setting type="string" name="skin.titan.widget-movies"></setting>
+        <setting type="string" name="skin.titan.widget-31050">movies</setting>
+        <setting type="string" name="skin.titan.widget-tvshows"></setting>
+        <setting type="string" name="skin.titan.widget-31051">tvshows</setting>
+        <setting type="string" name="skin.titan.widget-musicvideos">custom</setting>
+        <setting type="string" name="skin.titan.widget-31018">netflix</setting>
+        <setting type="string" name="skin.titan.widget-plugin.video.netflixbmc">netflix</setting>
+        <setting type="string" name="skin.titan.LoginBackground"></setting>
+        <setting type="string" name="skin.titan.widget-plugin.video.youtube"></setting>
+        <setting type="string" name="skin.titan.widget-music"></setting>
+        <setting type="string" name="skin.titan.widget-weather">weather</setting>
+        <setting type="string" name="skin.titan.widget-31036">custom</setting>
+        <setting type="string" name="skin.titan.widget-31157">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-0-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-1-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-2-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-3-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-4-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-5-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-6-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-7-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-8-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-9-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-10-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-11-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-12-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-13-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-mediabrowser-usr-14-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-0-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-1-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-2-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-3-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-4-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-5-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-6-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-7-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-8-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-9-title">custom</setting>
+        <setting type="string" name="skin.titan.MoviesWidget">newmovies</setting>
+        <setting type="string" name="skin.titan.TvShowsWidget">latest</setting>
+        <setting type="string" name="skin.titan.MusicWidget">latestalbum</setting>
+        <setting type="string" name="skin.titan.NetflixWidget">inprogresstvshows</setting>
+        <setting type="string" name="skin.titan.collectionwidget0">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget1">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget2">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget3">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget4">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget5">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget6">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget7">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget8">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget9">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget10">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget11">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget12">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget13">recent</setting>
+        <setting type="string" name="skin.titan.collectionwidget14">recent</setting>
+        <setting type="string" name="skin.titan.spotlightwidget-movies"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-tvshows"></setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-0-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-1-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-2-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-3-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-4-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-5-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-6-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-7-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-8-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-9-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-10-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-11-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-12-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-13-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-emby-nodes-14-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-10-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-11-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-12-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-13-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-14-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-info-window-home-property-plexbmc-channels-title">custom</setting>
+        <setting type="string" name="skin.titan.widget-31536">netflix</setting>
+        <setting type="string" name="skin.titan.widget-31537">netflix</setting>
+        <setting type="string" name="skin.titan.NetflixGeneralWidget">mylist</setting>
+        <setting type="string" name="skin.titan.NetflixMoviesWidget">mylist</setting>
+        <setting type="string" name="skin.titan.NetflixTvWidget">mylist</setting>
+        <setting type="string" name="skin.titan.CustomPicturesBackgroundPath"></setting>
+        <setting type="string" name="skin.titan.StudioImagesCustompath"></setting>
+        <setting type="string" name="skin.titan.CustomLogoImage"></setting>
+        <setting type="string" name="skin.titan.HomeMenuUseRadioCollection"></setting>
+        <setting type="string" name="skin.titan.widget-addons"></setting>
+        <setting type="string" name="skin.titan.widget-"></setting>
+        <setting type="string" name="skin.titan.widget-plugin-video-youtube"></setting>
+        <setting type="string" name="skin.titan.widget-settings"></setting>
+        <setting type="string" name="skin.aeon.nox.5.randomfanartdelay"></setting>
+        <setting type="string" name="skin.aeon.nox.5.CustomPicturesBackgroundPath"></setting>
+        <setting type="string" name="skin.aeon.nox.5.">1</setting>
+        <setting type="string" name="skin.aeon.nox.5.GadgetRows"></setting>
+        <setting type="string" name="skin.aeon.nox.5.widget-"></setting>
+        <setting type="string" name="skin.mimic.ItemToEdit.BGType">2</setting>
+        <setting type="string" name="skin.mimic.ItemToEdit.MultiFanart">/storage/.kodi/media/branding/back/Weather/</setting>
+        <setting type="string" name="skin.mimic.Overlay.Toggle"></setting>
+        <setting type="string" name="skin.mimic.StudioImagesCustompath"></setting>
+        <setting type="string" name="skin.mimic.Apps.Fallback"></setting>
+        <setting type="string" name="skin.mimic.ColorCustomizer">menucolor.name</setting>
+        <setting type="string" name="skin.mimic.Music.Fallback"></setting>
+        <setting type="string" name="skin.mimic.LiveTV.Fallback"></setting>
+        <setting type="string" name="skin.mimic.Pictures.Fallback"></setting>
+        <setting type="string" name="skin.mimic.Weather.Fallback"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Music.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.LiveTV.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Pictures.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.aeon.nox.5.Weather.Fallback">/storage/.kodi/media/branding/back/About/default.png</setting>
+        <setting type="string" name="skin.arctic.zephyr.randomfanartdelay"></setting>
+        <setting type="string" name="skin.arctic.zephyr.CustomPicturesBackgroundPath"></setting>
+        <setting type="string" name="skin.arctic.zephyr.GadgetRows"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-addons"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-1036"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-Favourites"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-kids"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-movies"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-music"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-sports"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-script-tvguidetecbox"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-script.tvguidetecbox"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-tvshows"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-weather"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-plugin-video-youtube"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-plugin.video.youtube"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-settings"></setting>
+        <setting type="string" name="skin.nebula.StudioImagesCustompath"></setting>
+        <setting type="string" name="skin.titan.widget-sports"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-plugin-video-youtube"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-plugin.video.youtube"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-sports"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-music"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-addons"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-settings"></setting>
+        <setting type="string" name="skin.titan.CustomBackgroundPath"></setting>
+        <setting type="string" name="skin.titan.HomeVideosButton1"></setting>
+        <setting type="string" name="skin.titan.HomeVideosButton2"></setting>
+        <setting type="string" name="skin.titan.HomeVideosButton3"></setting>
+        <setting type="string" name="skin.titan.HomeVideosButton4"></setting>
+        <setting type="string" name="skin.titan.HomeVideosButton5"></setting>
+        <setting type="string" name="skin.titan.HomeMusicButton1"></setting>
+        <setting type="string" name="skin.titan.HomeMusicButton2"></setting>
+        <setting type="string" name="skin.titan.HomeMusicButton3"></setting>
+        <setting type="string" name="skin.titan.HomeMusicButton4"></setting>
+        <setting type="string" name="skin.titan.HomeMusicButton5"></setting>
+        <setting type="string" name="skin.titan.HomePictureButton1"></setting>
+        <setting type="string" name="skin.titan.HomePictureButton2"></setting>
+        <setting type="string" name="skin.titan.HomePictureButton3"></setting>
+        <setting type="string" name="skin.titan.HomePictureButton4"></setting>
+        <setting type="string" name="skin.titan.HomePictureButton5"></setting>
+        <setting type="string" name="skin.titan.HomeProgramButton1"></setting>
+        <setting type="string" name="skin.titan.HomeProgramButton2"></setting>
+        <setting type="string" name="skin.titan.HomeProgramButton3"></setting>
+        <setting type="string" name="skin.titan.HomeProgramButton4"></setting>
+        <setting type="string" name="skin.titan.HomeProgramButton5"></setting>
+        <setting type="string" name="skin.arctic.zephyr.StudioImagesCustompath"></setting>
+        <setting type="string" name="skin.aeon.nox.5.StudioImagesCustompath"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-1036"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-Favourites"></setting>
+        <setting type="string" name="skin.titan.widget-1036">plugin://script.titanskin.helpers/?FAVOURITES</setting>
+        <setting type="string" name="skin.titan.widget-Favourites"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-kids"></setting>
+        <setting type="string" name="skin.titan.widget-kids"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-script-tvguidetecbox"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-script.tvguidetecbox"></setting>
+        <setting type="string" name="skin.titan.widget-script-tvguidetecbox"></setting>
+        <setting type="string" name="skin.titan.widget-script.tvguidetecbox"></setting>
+        <setting type="string" name="skin.nebula.widget-kids"></setting>
+        <setting type="string" name="skin.nebula.widget-script-tvguidetecbox"></setting>
+        <setting type="string" name="skin.nebula.widget-script.tvguidetecbox"></setting>
+        <setting type="string" name="skin.nebula.widget-1036"></setting>
+        <setting type="string" name="skin.nebula.widget-Favourites"></setting>
+        <setting type="string" name="skin.confluence.StudioImagesCustompath"></setting>
+        <setting type="string" name="skin.confluence.GadgetRows"></setting>
+        <setting type="string" name="skin.confluence.widget-"></setting>
+        <setting type="string" name="skin.arctic.zephyr.locale.language">resource.language.en_gb</setting>
+        <setting type="string" name="skin.titan.CustomColorTheme"></setting>
+        <setting type="string" name="skin.titan.FooterOpacity"></setting>
+        <setting type="string" name="skin.titan.PanelColor"></setting>
+        <setting type="string" name="skin.titan.MyPrettyColor"></setting>
+        <setting type="string" name="skin.titan.FocusColor"></setting>
+        <setting type="string" name="skin.titan.HomeFocusColor"></setting>
+        <setting type="string" name="skin.titan.ColorKeyboard"></setting>
+        <setting type="string" name="skin.titan.$INFO[Skin.String(ColorKeyboard)]"></setting>
+        <setting type="string" name="skin.titan.$INFO[[Skin.String(ColorKeyboard)]]"></setting>
+        <setting type="string" name="skin.titan.ViewDetailsColor"></setting>
+        <setting type="string" name="skin.titan.ViewDetailsTextFocusColor"></setting>
+        <setting type="string" name="skin.titan.helix.PanelColor"></setting>
+        <setting type="string" name="skin.titan.helix.ButtonFocusColor"></setting>
+        <setting type="string" name="skin.titan.helix.FooterOpacity"></setting>
+        <setting type="string" name="skin.titan.helix.HeaderTextColor"></setting>
+        <setting type="string" name="skin.titan.helix.HeaderTextShadowColor"></setting>
+        <setting type="string" name="skin.titan.helix.OSDPanelOpacity"></setting>
+        <setting type="string" name="skin.titan.helix.ViewDetailsFocusColor"></setting>
+        <setting type="string" name="skin.titan.helix.ColorTheme"></setting>
+        <setting type="string" name="skin.titan.helix.CustomColorTheme"></setting>
+        <setting type="string" name="skin.titan.helix.ViewDetailsPanelOpacity"></setting>
+        <setting type="string" name="skin.titan.helix.ViewDetailsFocusShadowColor"></setting>
+        <setting type="string" name="skin.titan.helix.ViewDetailsTextColor"></setting>
+        <setting type="string" name="skin.titan.helix.ViewDetailsTextShadowColor"></setting>
+        <setting type="string" name="skin.titan.helix.HomeViewDetailsFocusColor"></setting>
+        <setting type="string" name="skin.titan.helix.GeneralTextColor"></setting>
+        <setting type="string" name="skin.titan.helix.ButtonTextColor"></setting>
+        <setting type="string" name="skin.titan.helix.ButtonFocusTextColor"></setting>
+        <setting type="string" name="skin.titan.helix.OverlayOpacity"></setting>
+        <setting type="string" name="skin.titan.helix.FooterTextColor"></setting>
+        <setting type="string" name="skin.titan.FooterGeneralPanelsColor">darkblue</setting>
+        <setting type="string" name="skin.titan.BusyIndicatorColor">77white</setting>
+        <setting type="string" name="skin.aeon.nox.5.HeaderTextColor"></setting>
+        <setting type="string" name="skin.aeon.nox.5.HeaderTextShadowColor"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ButtonFocusColor"></setting>
+        <setting type="string" name="skin.aeon.nox.5.GeneralPanelsColor"></setting>
+        <setting type="string" name="skin.aeon.nox.5.GeneralTextColor"></setting>
+        <setting type="string" name="skin.mimic.HeaderTextColor"></setting>
+        <setting type="string" name="skin.mimic.HeaderTextShadowColor"></setting>
+        <setting type="string" name="skin.mimic.ButtonFocusColor"></setting>
+        <setting type="string" name="skin.mimic.GeneralPanelsColor"></setting>
+        <setting type="string" name="skin.mimic.GeneralTextColor"></setting>
+        <setting type="string" name="skin.confluence.HeaderTextColor"></setting>
+        <setting type="string" name="skin.confluence.HeaderTextShadowColor"></setting>
+        <setting type="string" name="skin.confluence.ButtonFocusColor"></setting>
+        <setting type="string" name="skin.confluence.GeneralPanelsColor"></setting>
+        <setting type="string" name="skin.confluence.GeneralTextColor"></setting>
+        <setting type="string" name="skin.confluence.locale.timezonecountry">Britain (UK)</setting>
+        <setting type="string" name="skin.confluence.locale.language">resource.language.el_gr</setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-3"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-videos"></setting>
+        <setting type="string" name="skin.confluence.WeatherFanartDir"></setting>
+        <setting type="string" name="skin.confluence.WeatherScript_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ItemToEdit.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ItemToEdit.WidgetLabel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ItemToEdit.WidgetType"></setting>
+        <setting type="string" name="skin.mimic.ItemToEdit.Widget"></setting>
+        <setting type="string" name="skin.mimic.ItemToEdit.WidgetLabel"></setting>
+        <setting type="string" name="skin.mimic.ItemToEdit.WidgetType"></setting>
+        <setting type="string" name="skin.nebula.widget-weather"></setting>
+        <setting type="string" name="skin.nebula.skinshortcuts-widget-1">Addon</setting>
+        <setting type="string" name="skin.nebula.skinshortcuts-widget-2">Addon</setting>
+        <setting type="string" name="skin.nebula.skinshortcuts-widget-3">Favourite</setting>
+        <setting type="string" name="skin.nebula.skinshortcuts-widget-4">Favourite</setting>
+        <setting type="string" name="skin.titan.spotlightwidget-weather"></setting>
+        <setting type="string" name="skin.titan.label"></setting>
+        <setting type="string" name="skin.aeon.nox.5.GeneralPanelsOpacity"></setting>
+        <setting type="string" name="skin.aeon.nox.5.SubmenuLayout"></setting>
+        <setting type="string" name="skin.mimic.GeneralPanelsOpacity"></setting>
+        <setting type="string" name="skin.mimic.SubmenuLayout"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-about"></setting>
+        <setting type="string" name="skin.nebula.widget-about"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-about"></setting>
+        <setting type="string" name="skin.titan.widget-about"></setting>
+        <setting type="string" name="skin.arctic.zephyr.widget-2"></setting>
+        <setting type="string" name="skin.titan.spotlightwidget-plugin-program-tbs"></setting>
+        <setting type="string" name="skin.titan.widget-plugin-program-tbs"></setting>
+        <setting type="string" name="skin.nebula.widget-plugin-program-tbs"></setting>
+        <setting type="string" name="skin.confluence.ButtonColor"></setting>
+        <setting type="string" name="skin.aeon.nox.5.54.Albums.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.54.Artists.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.52.Artists.InfoPanel"></setting>
+        <setting type="string" name="skin.aeon.nox.5.Viz.Background"></setting>
+        <setting type="string" name="skin.aeon.nox.5.ItemToEdit.InfoLine"></setting>
+    </skinsettings>
+    <resolutions>
+        <resolution>
+            <description>1280x720 @ 60.00 - Full Screen</description>
+            <subtitles>652</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>19</left>
+                <top>8</top>
+                <right>1265</right>
+                <bottom>714</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1920x1080 @ 60.00i - Full Screen</description>
+            <subtitles>1042</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1920x1080 @ 60.00 - Full Screen</description>
+            <subtitles>926</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>44</left>
+                <top>25</top>
+                <right>1883</right>
+                <bottom>1049</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1280x720 @ 50.00 - Full Screen</description>
+            <subtitles>694</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1280</right>
+                <bottom>720</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1920x1080 @ 50.00i - Full Screen</description>
+            <subtitles>1042</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1920x1080 @ 50.00 - Full Screen</description>
+            <subtitles>1042</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1920x1080 @ 24.00 - Full Screen</description>
+            <subtitles>1042</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+    </resolutions>
+    <defaultvideosettings>
+        <deinterlacemode>1</deinterlacemode>
+        <interlacemethod>1</interlacemethod>
+        <scalingmethod>1</scalingmethod>
+        <noisereduction>0.000000</noisereduction>
+        <postprocess>false</postprocess>
+        <sharpness>0.000000</sharpness>
+        <viewmode>0</viewmode>
+        <zoomamount>1.000000</zoomamount>
+        <pixelratio>1.000000</pixelratio>
+        <verticalshift>0.000000</verticalshift>
+        <volumeamplification>0.000000</volumeamplification>
+        <outputtoallspeakers>false</outputtoallspeakers>
+        <showsubtitles>true</showsubtitles>
+        <brightness>50.000000</brightness>
+        <contrast>50.000000</contrast>
+        <gamma>20.000000</gamma>
+        <audiodelay>0.000000</audiodelay>
+        <subtitledelay>0.000000</subtitledelay>
+        <autocrop>false</autocrop>
+        <nonlinstretch>false</nonlinstretch>
+        <stereomode>0</stereomode>
+    </defaultvideosettings>
+    <viewstates>
+        <musicfiles>
+            <viewmode>65586</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </musicfiles>
+        <musiclastfm>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </musiclastfm>
+        <musicnavalbums>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </musicnavalbums>
+        <musicnavartists>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </musicnavartists>
+        <musicnavsongs>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </musicnavsongs>
+        <pictures>
+            <viewmode>720896</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </pictures>
+        <programs>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>1</sortattributes>
+        </programs>
+        <videofiles>
+            <viewmode>65586</viewmode>
+            <sortmethod>0</sortmethod>
+            <sortorder>0</sortorder>
+            <sortattributes>0</sortattributes>
+        </videofiles>
+        <videonavactors>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavactors>
+        <videonavepisodes>
+            <viewmode>720896</viewmode>
+            <sortmethod>21</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavepisodes>
+        <videonavgenres>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavgenres>
+        <videonavmusicvideos>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavmusicvideos>
+        <videonavseasons>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavseasons>
+        <videonavtitles>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavtitles>
+        <videonavtvshows>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavtvshows>
+        <videonavyears>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+            <sortattributes>0</sortattributes>
+        </videonavyears>
+    </viewstates>
+    <audio>
+        <mute>false</mute>
+        <fvolumelevel>1.000000</fvolumelevel>
+    </audio>
+</settings>

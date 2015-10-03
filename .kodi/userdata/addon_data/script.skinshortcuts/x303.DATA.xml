@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.bbciplayer</defaultID>
+		<label>[COLOR red][B]BBC iPlayer[/B][/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.video.bbciplayer%2ficon.png/</thumb>
+		<action>ActivateWindow(10025,"plugin://plugin.video.bbciplayer",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>[COLOR yellow][B]PPV &amp; SPORTS[/B][/COLOR]</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.program.super.favourites%2ficon.png/</thumb>
+		<action>ActivateWindow(10001,"plugin://plugin.program.super.favourites/?label=PPV++SPORTS&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FPPV++SPORTS&amp;image=%2Fstorage%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ficon.png&amp;fanart=NULL",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>[COLOR blue][B]ITV Player[/B][/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.video.itv%2ficon.png/</thumb>
+		<action>ActivateWindow(10025,"plugin://plugin.video.itv/?url=http%3A%2F%2Fwww.itv.com%2F_data%2Fxml%2FCatchUpData%2FCatchUp360%2FCatchUpMenu.xml&amp;mode=1&amp;name=ITV+Player&amp;iconimage=%2Fstorage%2F.kodi%2Faddons%2Fplugin.video.itv%2Ficon.png",return)</action>
+	</shortcut>
+</shortcuts>

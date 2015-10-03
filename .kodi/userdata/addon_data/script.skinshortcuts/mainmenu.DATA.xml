@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>About</label>
+		<label2>Custom shortcut</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/About/default.png</thumb>
+		<action>noop</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Addons</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/addons.jpg</thumb>
+		<action>ActivateWindow(10001,"plugin://plugin.program.super.favourites/?label=Addons&amp;mode=400&amp;path=%2Fstorage%2F.kodi%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FAddons&amp;fanart=NULL",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>1036</defaultID>
+		<label>1036</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/favourites.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/Favourites.jpg</thumb>
+		<action>ActivateWindow(Favourites)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Kids</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/kids.jpg</thumb>
+		<action>ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=Kids&amp;mode=400&amp;path=%2Fstorage%2F.kodi%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FKids&amp;image=%2Fstorage%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ficon.png&amp;fanart=NULL",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Movies</label>
+		<label2>Program</label2>
+		<icon>special://skin/backgrounds/Movies.jpg</icon>
+		<thumb>/storage/.kodi/media/branding/back/movies.jpg</thumb>
+		<action>ActivateWindow(10001,"plugin://plugin.program.super.favourites/?label=Movies&amp;mode=400&amp;path=%2Fstorage%2F.kodi%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FMovies&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.genesis%2Fresources%2Fart%2Fmetro%2Fgenres_movies.jpg&amp;fanart=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.genesis%2Fresources%2Fart%2Fmetro%2Ffanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Music</label>
+		<label2>Program</label2>
+		<icon>special://skin/backgrounds/Music.jpg</icon>
+		<thumb>/storage/.kodi/media/branding/back/music.jpg</thumb>
+		<action>ActivateWindow(10001,"plugin://plugin.program.super.favourites/?label=Music&amp;mode=400&amp;path=%2Fstorage%2F.kodi%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FMusic&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.audio.binaural%2Ficon.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%2Fplugin.audio.binaural%2Ffanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Sports</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/sport.jpg</thumb>
+		<action>ActivateWindow(10001,"plugin://plugin.program.super.favourites/?label=Sports&amp;mode=400&amp;path=%2Fstorage%2F.kodi%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FSports&amp;image=%2Fstorage%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ficon.png&amp;fanart=NULL",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>script.tvguidetecbox</defaultID>
+		<label>TV Guide</label>
+		<label2>Program</label2>
+		<icon>DefaultAddon.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/tvguide.jpg</thumb>
+		<action>RunAddOn(script.tvguidetecbox)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>TV Shows</label>
+		<label2>Program</label2>
+		<icon>special://skin/backgrounds/TVShows.jpg</icon>
+		<thumb>/storage/.kodi/media/branding/back/Tvshows.jpg</thumb>
+		<action>ActivateWindow(10001,"plugin://plugin.program.super.favourites/?label=TV+Shows&amp;mode=400&amp;path=%2Fstorage%2F.kodi%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FTV+Shows&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.genesis%2Fresources%2Fart%2Fmetro%2Fgenres_shows.jpg&amp;fanart=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.genesis%2Fresources%2Fart%2Fmetro%2Ffanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>12600</label>
+		<label2>Common Shortcut</label2>
+		<icon>$VAR[WeatherFanartPath]$INFO[Weather.fanartcode].jpg</icon>
+		<thumb />
+		<action>ActivateWindow(Weather)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.youtube</defaultID>
+		<label>YouTube</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/YouTube.png</thumb>
+		<action>ActivateWindow(10025,"plugin://plugin.video.youtube",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Settings</label>
+		<label2>Custom shortcut</label2>
+		<icon>special://skin/extras/icons/settings.png</icon>
+		<thumb>/storage/.kodi/media/branding/back/settings.jpg</thumb>
+		<action>ActivateWindow(10025,"plugin://plugin.program.tbs")</action>
+	</shortcut>
+</shortcuts>
